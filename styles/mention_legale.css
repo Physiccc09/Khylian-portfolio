@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Museosans;
+    src: url(./../assets/font/museosans.ttf);
+}
+
+body {
+    font-family: "Museosans", sans-serif;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 60px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 15px;
+    color: #555;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+ul {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.middle {
+    text-align: center;
+}

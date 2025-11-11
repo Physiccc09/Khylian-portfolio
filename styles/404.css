@@ -1,0 +1,77 @@
+@font-face
+{
+	font-family: Museosans;
+	src: url(./assets/font/museosans.ttf);
+}
+
+@font-face
+{
+	font-family: VarelaRound;
+	src: url(./assets/font/VarelaRound.ttf);
+}
+
+body
+{
+	background-image: url("../assets/img/bgpattern.png");
+	backdrop-filter: invert(1);
+	color: #fff;
+	font-family: Museosans, sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+section
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: -15px;
+}
+
+.header-img img
+{
+	width: 350px;
+	max-width: 80%;
+	height: auto;
+}
+
+h1
+{
+	color: black;
+	font-family: VarelaRound, sans-serif;
+	font-size: 48px;
+	margin: 0;
+}
+
+p
+{
+	color: black;
+	font-size: 18px;
+	margin: 0;
+}
+
+.btn
+{
+    text-decoration: none;
+	margin-top: 50px;
+	font-family: VarelaRound, sans-serif;
+	padding: 12px 24px;
+	border: 2px solid #1f2937;
+	background: #1f2937;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+
+.btn:hover
+{
+	transform: translateY(-2px) scale(1.05);
+	background: white;
+	color: #1f2937;
+}
